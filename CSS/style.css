@@ -42,6 +42,18 @@ ul {
   border: 2px dashed currentColor;
 }
 
+.bgc-gray {
+  background-color: rgb(221, 221, 221);
+}
+
+.bgc-white {
+  background-color: white;
+}
+
+.bgc-dark {
+  background-color: #636363;
+}
+
 /* Header bar*/
 
 header {
@@ -117,16 +129,6 @@ header {
   width: 60%;
 }
 
-/* section 2 */
-
-.bgc-gray {
-  background-color: rgb(221, 221, 221);
-}
-
-.bgc-white {
-  background-color: white;
-}
-
 /*  section 4 */
 
 .wrapper.section.single {
@@ -141,4 +143,35 @@ header {
   background-color: rgb(221, 221, 221);
   height: 850px;
   width: 1080px;
+}
+
+/*  footer */
+
+.footer-wrapper {
+  height: 450px;
+  width: 1080px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#left {
+  background-color: #ffbcbc;
+  flex-grow: 1;
+  width: 30%;
+}
+
+#right {
+  background-color: #ffffff;
+  flex-grow: 1;
+  width: 70%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-list-footer {
+  flex-grow: 1;
+  width: 25%;
+  background-color: #e28181;
 }
