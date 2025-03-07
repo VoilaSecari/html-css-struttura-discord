@@ -117,13 +117,13 @@ header {
   justify-content: space-between;
 }
 
-#pink {
+.pink {
   background-color: pink;
   flex-grow: 1;
   width: 40%;
 }
 
-#blue {
+.blue {
   background-color: rgb(164, 222, 255);
   flex-grow: 1;
   width: 60%;
@@ -174,4 +174,20 @@ header {
   flex-grow: 1;
   width: 25%;
   background-color: #e28181;
+}
+
+/* footer */
+
+.container.footer {
+  background-color: aquamarine;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.elemento-footer {
+  padding: 10px;
+  background-color: white;
 }
