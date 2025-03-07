@@ -74,10 +74,9 @@ header {
   text-align: right;
 }
 
-/* Header foto */
+/* Header sezione */
 
-.wrapper.bottom-header {
-  background-color: rgb(179, 179, 179);
+.wrapper.section {
   height: 400px;
 
   display: flex;
@@ -85,11 +84,61 @@ header {
   justify-content: center;
 }
 
-.foto-bottom-header {
+#foto-header .center-section {
   padding: 20px;
   background-color: rgb(221, 221, 221);
   height: 350px;
   width: 900px;
 }
 
-/* main */
+/* section 1 */
+
+.wrapper.section.double {
+  height: 500px;
+}
+
+.center-section.double {
+  height: 450px;
+  width: 1080px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#pink {
+  background-color: pink;
+  flex-grow: 1;
+  width: 40%;
+}
+
+#blue {
+  background-color: rgb(164, 222, 255);
+  flex-grow: 1;
+  width: 60%;
+}
+
+/* section 2 */
+
+.bgc-gray {
+  background-color: rgb(221, 221, 221);
+}
+
+.bgc-white {
+  background-color: white;
+}
+
+/*  section 4 */
+
+.wrapper.section.single {
+  height: 900px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#foto-center .center-section {
+  background-color: rgb(221, 221, 221);
+  height: 850px;
+  width: 1080px;
+}
