@@ -26,13 +26,70 @@ ul {
 
 .debug,
 .debug * {
-  min-height: 100px;
+  min-height: 50px;
   padding: 5px;
   background-color: #ff000022;
+  border: 2px dashed red;
 }
 
 .container {
   max-width: 1080px;
   margin: 0 auto;
-  padding: 0 10px;
+  box-sizing: border-box;
 }
+
+.dashed {
+  border: 2px dashed currentColor;
+}
+
+/* Header bar*/
+
+header {
+  background-color: #cdcdcd;
+}
+
+.container.intestazione {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.dashed.bgc-white {
+  background-color: #e8e8e8;
+}
+
+.elemento-header {
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.elemento-header.centrale {
+  flex-grow: 3;
+  text-align: center;
+}
+
+.elemento-header.destra {
+  text-align: right;
+}
+
+/* Header foto */
+
+.wrapper.bottom-header {
+  background-color: rgb(179, 179, 179);
+  height: 400px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto-bottom-header {
+  padding: 20px;
+  background-color: rgb(221, 221, 221);
+  height: 350px;
+  width: 900px;
+}
+
+/* main */
